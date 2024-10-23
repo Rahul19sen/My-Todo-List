@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200">
+    <div class="bg-white shadow-md rounded-md mx-auto max-w-[400px] min-w-[400px] min-h-[400px] my-4 border">
+        <h1 class="border-b px-2 py-1 font-semibold">JS Todo</h1>
+        <form class="py-1 px-2">
+            <div class="flex flex-col pb-2">
+                <label for="title">Title</label>
+                <input placeholder="" type="text" class="p-1 border bg-gray-100 border rounded-sm focus:outline-none focus:shadow-sm" id="title" name="title">
+            </div>
+            <div class="flex flex-col pb-2">
+                <label for="desc">Description</label>
+                <input placeholder="" type="text" class="p-1 border bg-gray-100 border rounded-sm focus:outline-none focus:shadow-sm" id="desc" name="desc">
+            </div>
+            <div class="flex flex-col pb-2">
+                <button name="add" type="submit" class="p-1 border bg-gray-200 rounded-sm bg-slate-800 text-white">Submit</button>
+            </div>
+        </form>
+
+        <table class="w-full">
+            <thead class="bg-slate-800 text-white">
+                <tr>
+                    <th class="font-normal py-2" style="text-transform: capitalize">s.no</th>
+                    <th class="font-normal py-2" style="text-transform: capitalize">title</th>
+                    <th class="font-normal py-2" style="text-transform: capitalize">description</th>
+                    <th class="font-normal py-2" style="text-transform: capitalize">action</th>
+                </tr>
+            </thead>
+            <tbody class="">
+
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
